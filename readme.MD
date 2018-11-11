@@ -7,7 +7,7 @@ Try it out [here](https://bartewicz.github.io/table-sorting-exercise/).
 
 All values gathered from a column meant to be sorted are stored in an array. Using default `array.sort()` method vaules are expected to be a string or a number. Here's the code used to sort table:
 
-```
+```js
 const sorted_array = array_from_rows.sort(function (a, b) {
       a = a.cells[column_index].innerText.toLowerCase()
       b = b.cells[column_index].innerText.toLowerCase()
